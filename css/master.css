@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.bg {
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.box{
+  height: 90%;
+  width: 70%;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(20, 20, 20, 0.7);
+  border-radius: 30px;
+  overflow-y:  auto;
+}
+
+.center{
+  padding-top: 100px;
+}
+.logo{
+  background-image: url("logo.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  width: 250px;
+  height: 100px;
+  background-position: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+}
+
+h1{
+  color: rgba(0, 255, 0, 1.0);
+  font-size: 38px;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 5px;
+}
+
+.menu{
+  margin: 10px auto;
+  max-width: 80%;
+  text-align: center;
+  background-color: rgba(0, 255, 0, 1.0);
+  padding: 10px;
+}
+
+.Item{
+
+  color: white;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: left;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.FL{
+  margin: 5px;
+  padding: 5px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.bar1{
+  background-color: rgb(245, 180, 83);
+  padding: 12px;
+  border-radius: 5px;
+  max-width: 40%;
+}
+
+.bar2{
+  background-color: rgb(30, 195, 30);
+  padding: 12px;
+  border-radius: 5px;
+  max-width: 65%;
+}
+
+.bar3{
+  background-color: rgb(188, 64, 64);
+  padding: 12px;
+  border-radius: 5px;
+  max-width: 20%;
+}
