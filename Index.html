@@ -6,69 +6,60 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <div class="bg">
+    <div class="container">
+      <header>
+        <img id="logo" src="css/logo.png" alt="">
+        <h1>Taking Booleaners from A to B</h1>
+      </header>
 
-        <div class="box">
+      <!-- Bottoni e non so se nav sia stata la scelta giusta come sezione ma ho pensato lo fosse per questa parte -->
+      <nav>
+        <button type="button" name="button">Prenota</button>
+        <button type="button" name="button">Termina Prenotazione</button>
+        <button type="button" name="button">Accendi Luci</button>
+      </nav>
 
-          <div class="center">
+      <main>
 
-            <div class="logo">
-            </div>
+        <!-- per ogni monopattino una sezione -->
+        <section>
+          <!-- Monopattino 1 -->
+          <h2><input type="checkbox" name="Gino22" value=""> Monopattino Gino22</h2>
+          <span class="arrow"> Via Guadalametri - a 220 metri da te<br>Stato carica:</span>
 
-            <h1>Taking Booleaners from A to B</h1>
-            <div class="menu">
-              <button type="button" name="button">Prenota</button>
-              <button type="button" name="button">Termina Prenotazione</button>
-              <button type="button" name="button">Accendi Luci</button>
-            </div>
-
-            <div class="Item">
-
-              <input type="checkbox" id="vehicle1" name="Gino22" value="Mono1">
-              <label for="vehicle1" class="FL">Monopattino Gino22</label><br>
-
-              <p><span>&#8594;</span> Via Guadalametri - a 220 metri da te</p>
-
-              <p>Stato Carica:</p>
-
-              <div class="bar1">
-              </div>
-
-            </div>
-
-            <div class="Item">
-
-              <input type="checkbox" id="vehicle2" name="Mike24" value="Mono2">
-              <label for="vehicle2" class="FL">Monopattino Mike24</label><br>
-
-              <p><span>&#8594;</span> Via Ricciardoni - a 420 metri da te</p>
-
-              <p>Stato Carica:</p>
-
-              <div class="bar2">
-              </div>
-
-            </div>
-
-            <div class="Item">
-
-              <input type="checkbox" id="vehicle3" name="Fede154" value="Mono3">
-              <label for="vehicle3" class="FL">Monopattino Fede154</label><br>
-
-              <p><span>&#8594;</span> Via Mentarini - a 490 metri da te</p>
-
-              <p>Stato Carica:</p>
-
-              <div class="bar3">
-              </div>
+          <!-- Stato carica barra -->
+          <div class="bar1">
           </div>
 
+        </section>
 
+        <section>
+          <!-- Monopattino 2 -->
+          <h2><input type="checkbox" name="Mike24" value=""> Monopattino Mike24</h2>
+          <span class="arrow"> Via Ricciardoni - a 420 metri da te<br>Stato carica:</span>
+
+          <!-- Stato carica barra -->
+          <div class="bar2">
           </div>
 
+        </section>
 
+        <section>
+          <!-- Monopattino 3 -->
+          <h2><input type="checkbox" name="Fede154" value=""> Monopattino Gino22</h2>
+          <span class="arrow"> Via Mentarini - a 490 metri da te<br>Stato carica:</span>
 
-      </div>
+          <!-- Stato carica barra -->
+          <div class="bar3">
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <!-- Credits : Miuccio Carmelo -->
+      </footer>
     </div>
+
   </body>
 </html>
